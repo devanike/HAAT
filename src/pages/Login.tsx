@@ -52,24 +52,11 @@ const Login = () => {
             className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-yellow-500 placeholder-gray-400"
           />
 
-          <div className="text-right">
-            <a href="#" className="text-yellow-600 hover:underline text-sm">
-              Forgot Password?
-            </a>
-          </div>
-
           <Button
             label="Login"
             variant="primary"
             className="w-full p-3 bg-gold text-white rounded-full text-lg font-medium hover:opacity-90 transition"
-           />
-
-          {/* <button
-            type="submit"
-            className="w-full p-3 bg-gold text-white rounded-full text-lg font-medium hover:opacity-90 transition"
-          >
-            Login
-          </button> */}
+          />
         </form>
       </div>
     </div>
